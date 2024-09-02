@@ -8,4 +8,5 @@ openssl req -nodes -new -x509 -keyout private-key.pem -certificate cert.pem
 ```
 eg users create
 eg credentials create -c yk -t oauth2
+eg credentials create -c yk -t basic-auth -p "password=pass"
 ```
