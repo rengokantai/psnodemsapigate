@@ -10,3 +10,7 @@ eg users create
 eg credentials create -c yk -t oauth2
 eg credentials create -c yk -t basic-auth -p "password=pass"
 ```
+
+```
+eg apps create -u yk
+```
